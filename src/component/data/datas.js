@@ -103,13 +103,23 @@ export const projectData = [
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
+  // {
+  //   id: 5,
+  //   title: "Redux E-commerce",
+  //   language: "React,Redux,Html,CSS",
+  //   image: "image/projectLandingImage/redux.jpg",
+  //   previewLink: "https://redux-demo-2022.netlify.app/",
+  //   codelink: "https://github.com/ZawHtet-246098/Redux-project",
+  //   detail:
+  //     "Lorem ipsum dolor amet consectetur adipisicing elit. Accusantium quis, ullam voluptatem est fugiat tenetur, totam, sit voluptatum a tempora sunt alias repudiandae. Omnis, voluptatem! Praesentium eligendi ullam commodi voluptatum.",
+  // },
   {
     id: 5,
-    title: "Redux E-commerce",
-    language: "React,Redux,Html,CSS",
-    image: "image/projectLandingImage/redux.jpg",
-    previewLink: "https://redux-demo-2022.netlify.app/",
-    codelink: "https://github.com/ZawHtet-246098/Redux-project",
+    title: "Google clone",
+    language: "React,Redux,Html,Tailwind CSS",
+    image: "image/projectLandingImage/googleClone.jpg",
+    previewLink: "https://googel-clone-2022.netlify.app",
+    codelink: "https://github.com/ZawHtet-246098/google-clone-2022",
     detail:
       "Lorem ipsum dolor amet consectetur adipisicing elit. Accusantium quis, ullam voluptatem est fugiat tenetur, totam, sit voluptatum a tempora sunt alias repudiandae. Omnis, voluptatem! Praesentium eligendi ullam commodi voluptatum.",
   },
