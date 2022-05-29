@@ -54,7 +54,7 @@ export const projectData = [
     title: "MovieVIP",
     language: "Html, React, Bootstrap, CSS",
     image: "./image/projectLandingImage/movievip.jpg",
-    previewLink: "https://zawvip-202222-loquacious-boba-ea788c.netlify.app/",
+    previewLink: "https://movievip2022520.netlify.app/",
     codelink: "https://github.com/ZawHtet-246098/zawvip2022-movie-demo",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
@@ -95,11 +95,11 @@ export const projectData = [
   },
   {
     id: 4,
-    title: "GPT-3",
-    language: "React,Html,CSS,Bootstrap",
-    image: "image/projectLandingImage/gpt.jpg",
-    previewLink: "https://zhtetgpt3-2022.netlify.app/",
-    codelink: "https://github.com/ZawHtet-246098/GPTProject2022",
+    title: "Redux-Ecommerce",
+    language: "React,Redux,Html,CSS,Bootstrap",
+    image: "image/projectLandingImage/smallecommerce.jpg",
+    previewLink: "https://small-ecommerce-2022.netlify.app/",
+    codelink: "https://github.com/ZawHtet-246098/smallEcommerce",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
