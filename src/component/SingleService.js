@@ -8,7 +8,7 @@ const SingleService = ({ id, logo, title, detail }) => {
       className="singleService"
     >
       <img src={logo} alt="" />
-      <h3>{title}</h3>
+      <h3 className="py-sm-1">{title}</h3>
       <p>{detail}</p>
     </div>
   );

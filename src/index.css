@@ -6,15 +6,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
+
 body {
   overflow-x: hidden;
   background: #040c18;
@@ -939,5 +931,21 @@ body {
   .singleServicesContainer {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+  }
+  .footer h5 {
+    font-size: 1rem;
+  }
+  .home h1,
+  h3,
+  h6 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar h3 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .educationAndExperienceSection {
+    padding: 5rem 0;
   }
 }

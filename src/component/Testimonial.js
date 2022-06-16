@@ -53,7 +53,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonialData">
           <h3 className="p-1">{testiData.title}</h3>
-          <h5>{testiData.position}</h5>
+          <h5 className="py-1">{testiData.position}</h5>
           <p className="col-lg-8 col-12 mx-auto">
             {/* {testiData ? {logo} : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ipsa adipisci mollitia porro quia odio error, quasi ha corrupti dicta aperiam. Libero sint eligendi odio, molestiae est
           beatae aliquid.'} */}

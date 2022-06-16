@@ -20,7 +20,7 @@ const Education = () => {
         </div>
         <div className="timelineSecondDiv ps-5">
           <h5 className="py-1">2021-2022</h5>
-          <h3>FrontEnd Developer</h3>
+          <h3 className="py-sm-1">FrontEnd Developer</h3>
           <h3 className="py-1">
             FCC / YT / Coding Addict YTC / Udemy courses{" "}
           </h3>
