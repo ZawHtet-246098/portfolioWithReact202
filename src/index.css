@@ -383,7 +383,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 10px #00eeff;
+  box-shadow: 0 0 3px #00eeff;
 }
 
 .bar span {
@@ -401,6 +401,13 @@ body {
   float: right;
   box-shadow: 0 0 10px #00eeff;
 }
+.frontendSkill {
+  padding: 0 2rem;
+  padding-top: 1rem;
+}
+.backendSkill {
+  padding: 0 2rem;
+}
 .HTML {
   width: 95%;
   animation: html 1s;
@@ -408,6 +415,14 @@ body {
 .CSS {
   width: 92%;
   animation: css 1s;
+}
+.Material {
+  width: 92%;
+  animation: mui 1s;
+}
+.TailWind {
+  width: 92%;
+  animation: tailwind 1s;
 }
 .JAVASCRIPT {
   width: 90%;
@@ -422,15 +437,15 @@ body {
   animation: redux 1s;
 }
 .NodeJS {
-  width: 30%;
+  width: 90%;
   animation: nodejs 1s;
 }
 .Express {
-  width: 25%;
+  width: 80%;
   animation: express 1s;
 }
 .MongoDB {
-  width: 35%;
+  width: 88%;
   animation: mongodb 1s;
 }
 
@@ -443,6 +458,22 @@ body {
   }
 }
 @keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes mui {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes tailwind {
   0% {
     width: 0%;
   }
@@ -630,13 +661,15 @@ body {
   gap: 0.1rem;
   row-gap: 2rem;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .singleProject {
+  width: 385px;
   color: #919999;
   border: 1px solid cyan;
   border-radius: 6px;
   position: relative;
-  box-shadow: rgb(44, 62, 80) 0px 15px 15px -15px;
+  box-shadow: rgb(26, 27, 27) 0px 15px 15px -15px;
 }
 .singleProject img {
   width: 100%;
@@ -646,10 +679,10 @@ body {
   animation: shake-top 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both infinite;
   animation-delay: 5s;
 }
-.singleProject:hover .singleProjectButton {
+/* .singleProject:hover .singleProjectButton {
   transform: translateY(0px);
   animation: bounce-in-top 1s both;
-}
+} */
 .singleProject .singleProjectButton {
   position: absolute;
   top: 0;
@@ -947,5 +980,28 @@ body {
   }
   .educationAndExperienceSection {
     padding: 5rem 0;
+  }
+  #contact {
+    padding: 0 0.2rem;
+  }
+  h3,
+  h2,
+  h1,
+  h4,
+  h5,
+  h6 {
+    padding-top: 1rem;
+    margin: 0;
+  }
+  .typingText {
+    padding: 0;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .skillEach {
+    padding: 0.5rem 0;
+  }
+  .experienceEachDiv h5 {
+    padding: 0.5rem 0;
   }
 }

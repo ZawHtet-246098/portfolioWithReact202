@@ -8,6 +8,8 @@ import Skill from "./Skill";
 
 const html = "HTML";
 const css = "CSS / SASS / BOOTSTRAP";
+const mui = "Material UI";
+const tailwind = "TailWind CSS";
 const javascript = "JAVASCRIPT";
 const react = "REACT";
 const redux = "REDUX / REDUX TOOLKIT";
@@ -44,19 +46,21 @@ const About = () => {
           data-aos-easing="ease-in-sine"
           className="aboutSkillSection col-12 col-md-8 col-lg-6 mx-auto"
         >
-          <div className="frontendSkill p-lg-5 p-md-2 p-5 pb-0">
+          <div className="frontendSkill">
             <h4 style={{ color: "cyan" }} className="py-2">
               Front End Skill
             </h4>
             <ul className="skill list-unstyled">
               {<Skill item={html} />}
               {<Skill item={css} />}
+              {<Skill item={mui} />}
+              {<Skill item={tailwind} />}
               {<Skill item={javascript} />}
               {<Skill item={react} />}
               {<Skill item={redux} />}
             </ul>
           </div>
-          <div className="backendSkill px-lg-5 p-md-2 px-5 pt-5">
+          <div className="backendSkill">
             <h4 className="py-2">Back End Skill</h4>
             <ul className="skill list-unstyled">
               {<Skill item={nodejs} />}

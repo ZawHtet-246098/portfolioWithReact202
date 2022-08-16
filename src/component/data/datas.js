@@ -51,45 +51,43 @@ export const frontendskill = [
 export const projectData = [
   {
     id: 0,
-    title: "MovieVIP",
-    language: "Html, React, Bootstrap, CSS",
-    image: "./image/projectLandingImage/movievip.jpg",
-    previewLink: "https://movievip2022520.netlify.app/",
-    codelink: "https://github.com/ZawHtet-246098/zawvip2022-movie-demo",
+    title: "Hotel E-commerce",
+    language:
+      "Html,CSS, Material Ui, React, Redux, Redux-Toolkit, Node Js, Express Js, MongoDB",
+    image: "./image/travel/1.jpg",
+    previewLink: "https://travel2022728.netlify.app/",
+    codelink: "https://github.com/ZawHtet-246098/Travel2022728",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
   {
     id: 1,
-    title: "NFT-Website",
-    language: "Html,CSS,SCSS",
-    image: "./image/projectLandingImage/nft.jpg",
-    previewLink:
-      "https://xcz3dmpy6iygdvqmqks5bg.on.drv.tw/drive/nft-project/version1.1.html",
-    codelink: "https://github.com/ZawHtet-246098/nft-project",
+    title: "Library",
+    language:
+      "Html,CSS, Material Ui, React, Redux, Redux-Toolkit, Node Js, Express Js, MongoDB",
+    image: "./image/books/1book.jpg",
+    previewLink: "https://mylibrary202286.herokuapp.com/",
+    codelink: "https://github.com/ZawHtet-246098/BookLibrary202286",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
   {
     id: 2,
-    title: "Old-Portfolio",
-    language: "Html,CSS,Javascript,SCSS",
-    image: "./image/projectLandingImage/oldportfolio.jpg",
-    previewLink:
-      "https://xcz3dmpy6iygdvqmqks5bg.on.drv.tw/drive/my%20portfolio.html",
-    codelink: "https://github.com/ZawHtet-246098/my-portfolio",
+    title: "MovieVIP",
+    language: "Html, React, Bootstrap, CSS",
+    image: "./image/videos/1.jpg",
+    previewLink: "https://movievip2022520.netlify.app/",
+    codelink: "https://github.com/ZawHtet-246098/movieVIP2022520",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
   {
     id: 3,
-    title: "Travel Website",
-    language: "Html,CSS,Javascript",
-    image: "image/projectLandingImage/travel.jpg",
-    previewLink:
-      "https://xcz3dmpy6iygdvqmqks5bg.on.drv.tw/drive/travel-website/my%20travel%20website.html",
-    codelink: "https://github.com/ZawHtet-246098/travel-website",
-
+    title: "Portfolio",
+    language: "Html,CSS,Javascript,Bootstrap, React",
+    image: "./image/portfolio/1.jpg",
+    previewLink: "/",
+    codelink: "https://github.com/ZawHtet-246098/portfolioWithReact202",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos voluptas possimus rerum ex magnam eaque illum ducimus, cupiditate quasi libero quod, a qui sequi accusantium, est debitis molestiae!",
   },
@@ -97,7 +95,7 @@ export const projectData = [
     id: 4,
     title: "Redux-Ecommerce",
     language: "React,Redux,Html,CSS,Bootstrap",
-    image: "image/projectLandingImage/smallecommerce.jpg",
+    image: "image/reduxEcommerce/1ecom.jpg",
     previewLink: "https://small-ecommerce-2022.netlify.app/",
     codelink: "https://github.com/ZawHtet-246098/smallEcommerce",
     detail:
@@ -105,24 +103,14 @@ export const projectData = [
   },
   // {
   //   id: 5,
-  //   title: "Redux E-commerce",
-  //   language: "React,Redux,Html,CSS",
-  //   image: "image/projectLandingImage/redux.jpg",
-  //   previewLink: "https://redux-demo-2022.netlify.app/",
-  //   codelink: "https://github.com/ZawHtet-246098/Redux-project",
+  //   title: "Google clone",
+  //   language: "React,Redux,Html,Tailwind CSS",
+  //   image: "image/projectLandingImage/googleClone.jpg",
+  //   previewLink: "https://googel-clone-2022.netlify.app",
+  //   codelink: "https://github.com/ZawHtet-246098/google-clone-2022",
   //   detail:
   //     "Lorem ipsum dolor amet consectetur adipisicing elit. Accusantium quis, ullam voluptatem est fugiat tenetur, totam, sit voluptatum a tempora sunt alias repudiandae. Omnis, voluptatem! Praesentium eligendi ullam commodi voluptatum.",
   // },
-  {
-    id: 5,
-    title: "Google clone",
-    language: "React,Redux,Html,Tailwind CSS",
-    image: "image/projectLandingImage/googleClone.jpg",
-    previewLink: "https://googel-clone-2022.netlify.app",
-    codelink: "https://github.com/ZawHtet-246098/google-clone-2022",
-    detail:
-      "Lorem ipsum dolor amet consectetur adipisicing elit. Accusantium quis, ullam voluptatem est fugiat tenetur, totam, sit voluptatum a tempora sunt alias repudiandae. Omnis, voluptatem! Praesentium eligendi ullam commodi voluptatum.",
-  },
 ];
 
 export const testimonialData = [

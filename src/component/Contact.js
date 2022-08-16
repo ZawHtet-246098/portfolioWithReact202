@@ -28,7 +28,7 @@ const Contact = () => {
 
             <p>Feel free to drop us a line below</p>
           </div>
-          <form action="" className="col-10 col-lg-7 mx-auto me-lg-5">
+          <form action="" className="col-12 col-lg-7 mx-auto me-lg-5">
             <h5 className="p-2 text-center">Start your project</h5>
             <div className="contactName col-11 mb-2 d-flex justify-content-between mx-auto">
               <input

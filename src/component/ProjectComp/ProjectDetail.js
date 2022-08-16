@@ -41,7 +41,7 @@ const ProjectDetail = () => {
     <div className="container position-relative py-3">
       <div
         style={{ background: "#919999" }}
-        className=" detailDiv col-10 mx-auto p-2"
+        className=" detailDiv col-12 mx-auto p-2"
       >
         <div className="exitBtn">
           <Link to="/">
@@ -50,10 +50,18 @@ const ProjectDetail = () => {
         </div>
         <img className="col-12 rounded" src={image} alt="" />
         <div className="py-3">
-          <h3>Category: {title}</h3>
-          <h4>Technological usage: {language}</h4>
-          <p className="mb-0">More Info:</p>
-          <p> {detail}</p>
+          <h5 style={{ display: "flex", fontWeight: "bold" }}>
+            <div style={{ width: "150px" }}>Category</div>
+            <div style={{ width: "90%" }}>{title}</div>{" "}
+          </h5>
+          <h5 style={{ fontWeight: "bold", display: "flex" }}>
+            <div style={{ width: "150px" }}>language</div>
+            <div style={{ width: "90%" }}>{language}</div>
+          </h5>
+          <h6 style={{ fontWeight: "bold", display: "flex" }}>
+            <div style={{ width: "150px" }}>More Info</div>
+            <div style={{ width: "90%" }}>{detail}</div>
+          </h6>
         </div>
 
         <div className="detailButtons">

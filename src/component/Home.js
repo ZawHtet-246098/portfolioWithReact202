@@ -23,7 +23,7 @@ const Home = () => {
             options={{
               strings: [
                 "Ethusiastic Developer",
-                "Forntend Developer",
+                "FrontEnd Developer",
                 "MERN Developer",
               ],
               autoStart: true,
@@ -33,8 +33,8 @@ const Home = () => {
         </h3>
         <p>
           I use animation as a third dimension by which to simplify experiences
-          and kuiding htro ech and evevry interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          and guiding to each and every interaction. I'm not adding motion just
+          to apace things up, but doing it in ways that.
         </p>
         <div className="homemaintwobutton">
           <button className="resumedownload">resume</button>

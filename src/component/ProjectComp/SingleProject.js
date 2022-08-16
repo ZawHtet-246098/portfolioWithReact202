@@ -1,18 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useGlobalContext } from "../../context";
+import Slider from "./slider/Slider";
+import {
+  travelImages,
+  bookImages,
+  videoImages,
+  portfoImages,
+  reduxEcom,
+} from "./Images";
 
 const SingleProject = ({ title, codelink, previewLink, image, id }) => {
+  console.log(title === "Hotel E-commerce");
   const { clickMoreDetail } = useGlobalContext();
   return (
     <div
       // data-aos="fade-up"
       data-aos="flip-left"
       data-aos-duration="1000"
-      className="mx-auto col-10 col-md-5 col-lg-3 singleProject"
+      // className="mx-auto col-10 col-md-5 col-lg-3 singleProject"
+      className="singleProject"
       id={id}
     >
-      <img className="col-12" src={image} alt="" />
+      {/* <img className="col-12" src={image} alt="" /> */}
+      {title === "Hotel E-commerce" && (
+        <Slider className="col-12" photos={travelImages} />
+      )}
+      {title === "Library" && <Slider className="col-12" photos={bookImages} />}
+      {title === "MovieVIP" && (
+        <Slider className="col-12" photos={videoImages} />
+      )}
+      {title === "Portfolio" && (
+        <Slider className="col-12" photos={portfoImages} />
+      )}
+      {title === "Redux-Ecommerce" && (
+        <Slider className="col-12" photos={reduxEcom} />
+      )}
+
       <div className="d-flex justify-content-between align-items-center">
         <h5 className="py-1">{title}</h5>
         <button
