@@ -50,15 +50,21 @@ const ProjectDetail = () => {
         </div>
         <img className="col-12 rounded" src={image} alt="" />
         <div className="py-3">
-          <h5 style={{ display: "flex", fontWeight: "bold" }}>
+          <h5
+            style={{ display: "flex", fontWeight: "bold", padding: ".3rem 0" }}
+          >
             <div style={{ width: "150px" }}>Category</div>
             <div style={{ width: "90%" }}>{title}</div>{" "}
           </h5>
-          <h5 style={{ fontWeight: "bold", display: "flex" }}>
+          <h5
+            style={{ fontWeight: "bold", display: "flex", padding: ".3rem 0" }}
+          >
             <div style={{ width: "150px" }}>language</div>
             <div style={{ width: "90%" }}>{language}</div>
           </h5>
-          <h6 style={{ fontWeight: "bold", display: "flex" }}>
+          <h6
+            style={{ fontWeight: "bold", display: "flex", padding: ".3rem 0" }}
+          >
             <div style={{ width: "150px" }}>More Info</div>
             <div style={{ width: "90%" }}>{detail}</div>
           </h6>

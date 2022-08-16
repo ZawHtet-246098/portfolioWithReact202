@@ -37,8 +37,23 @@ const Home = () => {
           to apace things up, but doing it in ways that.
         </p>
         <div className="homemaintwobutton">
-          <button className="resumedownload">resume</button>
-          <button className="tocontactpage">contact</button>
+          <button className="resumedownload">
+            {" "}
+            <a
+              href="https://drive.google.com/file/d/1Z2oRcwrnmplKMUl6vyYhsT_V8T3f6hfK/view?usp=sharing"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              resume
+            </a>
+          </button>
+          <button className="tocontactpage">
+            <a
+              href="#contact"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Contact
+            </a>
+          </button>
         </div>
 
         <div className="sociallinkbutton d-flex pt-lg-5 mt-5">

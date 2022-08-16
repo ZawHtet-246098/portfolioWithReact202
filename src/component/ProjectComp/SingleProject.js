@@ -44,6 +44,7 @@ const SingleProject = ({ title, codelink, previewLink, image, id }) => {
             zIndex: 100,
             background: "transparent",
             border: "1px solid cyan",
+            animation: "none",
           }}
           className="px-3 me-1"
           onClick={() => clickMoreDetail(id)}
