@@ -115,7 +115,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="footer text-center pt-5">
-        <h5>@2022 / created by Mr.Zaw / All Rights Reserved.</h5>
+        <h6>@2022 / created by Mr.Zaw / All Rights Reserved.</h6>
       </div>
     </div>
   );
