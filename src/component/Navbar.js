@@ -13,6 +13,8 @@ const Navbar = () => {
             style={{
               color: "cyan",
               animation: "heartbeat 1.5s ease-in-out infinite both",
+              padding: '.1rem',
+              margin: 0
             }}
             className="mb-0 ms-5"
           >

@@ -15,7 +15,7 @@ const Home = () => {
     <div className="home d-md-flex col-lg-11 mx-auto" id="home">
       <div className="col-12 col-md-6 homeLeftDiv">
         <h6>Welcome to my portfolio page!</h6>
-        <h1>
+        <h1 style={{padding: '.1rem'}}>
           Hi I'M <span>Zaw Htet</span>
         </h1>
         <h3 className="typingText">
